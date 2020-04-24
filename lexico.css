@@ -1,0 +1,149 @@
+@-moz-document domain("www.lexico.com") {
+/* content */
+#content > div:not(.lex-container),
+#content > div.lex-container > *:not(.main-content),
+#content > div.lex-container > div.main-content > div > *:not(.lex-content),
+.main-content > .container::after,
+#footer,
+.daisy_tracker {
+    display: none;
+}
+
+.lex-content .lex-filling {
+    min-height: unset;
+    padding: unset;
+}
+
+.main-content > .container,
+.lex-filling > div.entryWrapper {
+    padding: 0;
+}
+
+.lex-content {
+    margin: 0;
+    float: unset;
+}
+
+#feedbackTab {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main-content > .container {
+    max-width: unset;
+}
+
+body {
+    height: 100vh;
+}
+
+/* app bar */
+.headerContent .logo {
+    margin: 0;
+    float: none;
+}
+
+.headerContent .searchField,
+.mobilelogo {
+    margin: 0;
+}
+
+.headerContent .searchField .searchMain {
+    padding: 0;
+}
+
+.headerContent .searchField .beforeSearch,
+.search::after,
+.searchField::after,
+.headerContent::after {
+    display: none;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContent .searchField {
+    display: grid;
+    align-items: center;
+}
+
+.shortHeader .burger,
+.mainHeader.fixed .burger {
+    position: static;
+}
+
+.mainHeader > .container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+/* mobile version */
+.headerContent .searchField .searchMain form fieldset,
+.headerContent .searchField .searchMain form .sbHolder {
+    margin: 0;
+}
+
+.mainHeader.fixed .headerContent .logo {
+    width: max-content;
+}
+
+.headerContent .searchField .searchMain form fieldset button[type="submit"] {
+    position: static;
+}
+
+.headerContent .searchField .searchMain form fieldset {
+    display: flex;
+    position: relative;
+}
+
+.mainHeader.fixed .burger img {
+    margin: 0;
+}
+
+.headerContent .searchField .searchMain form fieldset .keyboard {
+    position: static;
+}
+
+.headerContent .searchField .searchMain form fieldset .keyboard svg:last-child {
+    display: none;
+}
+
+.mainHeader.fixed,
+header#header,
+#feedbackTab {
+    background-color: rgb(49, 27, 90);
+}
+
+.mainHeader.fixed .burger,
+.mainHeader,
+.topHeader,
+.sbHolder,
+.sbSelector {
+    background-color: transparent;
+}
+
+input#query {
+    color: white;
+    border-style: none;
+    background-color: transparent;
+}
+
+.searchMain > .search {
+    border-color: rgba(255, 255, 255, 0.23);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.searchMain > .search:hover {
+    border-color: white;
+}
+}

@@ -1,0 +1,7 @@
+dbaeumer.vscode-eslint
+alefragnani.bookmarks
+eamodio.gitlens
+michelemelluso.code-beautifier
+mkaufman.htmlhint
+oderwat.indent-rainbow
+ms-python.python
